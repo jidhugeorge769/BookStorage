@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+<body class="bg-secondary">
+
+    <div class="container w-75 p-5 mt-5 text-center text-white " style="background-color: rgb(41, 72, 117); border-radius: 70px;">
+        
+        <h1>Search a Book</h1>
+
+        <input id="bn1" placeholder="TYPE BOOK NAME TO SEARCH"  type="text" class="form-control mt-5">
+
+        <button onclick="findBook()"  type="button" class="btn btn-info mt-4">Search</button>
+
+    </div>     
+    
+    <div id="result" class="container w-75 p-5 mt-2 text-center text-white " style="background-color:  rgb(158, 179, 207); border-radius: 70px;">
+        
+    </div>
+    
+</body>
+<script src="./bookjs.js"></script>
+
+</html>
